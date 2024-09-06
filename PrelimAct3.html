@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information Sheet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="PrelimAct3.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="row justify-content-center">
+        <form action="" class="w-75 p-5 mx-auto rounded">
+            <div class="text-center">
+                <img class="logo" src="logo.png" alt="">
+            </div>
+            <br><br><h1>Student Information Sheet</h1><br>
+            <div class="row">
+                <div class="col">
+                    <label for="stud_name">Student's Name</label>
+                    <input id="stud_name" class="form-control" type="text">
+                </div>
+                <div class="col">
+                    <label for="age">Age</label>
+                    <input id="age" class="form-control" type="number" min="1">
+                </div>
+                <div class="col">
+                        <label for="">Gender</label><br>
+                        <input class="form-check-input" type="radio" name="gender" id="gender" value="option1">
+                        <label class="form-check-label" for="gender">
+                            Female
+                        </label>
+                        
+                        <input class="form-check-input" type="radio" name="gender" id="gender" value="option1">
+                        <label class="form-check-label" for="gender">
+                            Male
+                        </label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="bday">Birthdate</label>
+                    <input id="bday" class="form-control" type="date">
+                </div>
+                <div class="col">
+                    <label for="add">Address</label>
+                    <input id="add" class="form-control" type="text">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="Gname">Guardian's name(s)</label>
+                    <input id="Gname" class="form-control" type="text">
+                </div>
+                <div class="col">
+                    <label for="Religion">Religion</label>
+                    <input id="Religion" class="form-control" type="text">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="reltostud">Relationship to student</label>
+                    <input id="reltostud" class="form-control" type="text">
+                </div>
+                <div class="col">
+                    <label for="tel">Telephone</label>
+                    <input id="tel" class="form-control" type="tel">
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col">
+                    <label for="famemail">Family Email</label>
+                    <input id="famemail" class="form-control" type="email">
+                </div>
+                <div class="col">
+                    <label for="tel">Best way to contact you</label>
+                    <input id="tel" class="form-control" type="text">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="ecn">Emergency Contact Name</label>
+                    <input id="ecn" class="form-control" type="text">
+                </div>
+                <div class="col">
+                    <label for="tel2">Telephone</label>
+                    <input id="tel2" class="form-control" type="tel">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="mname">Mother's Name</label>
+                    <input id="mname" class="form-control" type="text">
+                </div>
+                <div class="col">
+                    <label for="mworkplace">Workplace</label>
+                    <input id="mworkplace" class="form-control" type="text">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="fname">Father's Name</label>
+                    <input id="fname" class="form-control" type="text">
+                </div>
+                <div class="col">
+                    <label for="fworkplace">Workplace</label>
+                    <input id="fworkplace" class="form-control" type="text">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="med">Medical Issues/Allergies/Medication</label>
+                    <textarea name="med" class="form-control" id="med"></textarea>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="fname">Academic Challenge</label>
+                    <textarea name="med" class="form-control" id="med"></textarea>
+                </div>
+            </div>
+
+            <div class="col">
+                <label for="">Does your child have a device?</label><br>
+                <input class="form-check-input" type="radio" name="device" id="device" value="Yes">
+                <label class="form-check-label" for="device">
+                    Yes
+                </label>
+                
+                <input class="form-check-input" type="radio" name="device" id="device" value="No" >
+                <label class="form-check-label" for="device">
+                    No
+                </label>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="fname">What kind of device is your child using?</label>
+                    <textarea name="med" class="form-control" id="med"></textarea>
+                </div>
+            </div>
+
+            <div class="col">
+                <label for="">Do you have any issues with the internet?</label><br>
+                <input class="form-check-input" type="radio" name="internet" id="internet" value="Yes">
+                <label class="form-check-label" for="internet">
+                    Yes
+                </label>
+                
+                <input class="form-check-input" type="radio" name="internet" id="internet" value="No">
+                <label class="form-check-label" for="internet">
+                    No
+                </label>
+            </div>
+
+
+            <div class="row">
+                <div class="col">
+                    <label for="schoolrel">Names of any relatives attending the school and grde thay are in</label>
+                    <textarea name="schoolrel" class="form-control" id="schoolrel"></textarea>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="date">Date</label>
+                    <input id="date" class="form-control" type="date">
+                </div>
+            </div>
+            
+            <div class="row text-end">
+                <div class="col">
+                <input type="submit" class="btn btn-primary">
+                <input type="reset" class="btn btn-danger">
+                </div>
+            </div>
+            
+        </form>   
+        </div>    
+    </div>
+
+
+</body>
+</html>
